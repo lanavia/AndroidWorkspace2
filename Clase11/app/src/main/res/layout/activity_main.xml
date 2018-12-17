@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical" android:gravity="center">
+
+    <TextView
+            android:text="Exchange from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/spnMoneyFrom"/>
+    <TextView
+            android:text="To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/spnMoneyTo"/>
+    <TextView
+            android:text="Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="$"
+            android:ems="10"
+            android:id="@+id/txtAmount"/>
+    <Button
+            android:text="Convertir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnExchange"/>
+    <TextView
+            android:text="Result"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" android:id="@+id/lblResult"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/lvListar" android:visibility="visible"/>
+</LinearLayout>

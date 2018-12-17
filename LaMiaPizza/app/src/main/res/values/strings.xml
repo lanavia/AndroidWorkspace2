@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LaMiaPizza</string>
+    <string name="rbLittle">Pequeña $1500</string>
+    <string name="rbMiddle">Mediana $3000</string>
+    <string name="rbFamilySize">Familiar $5000</string>
+    <string name="cbxMeat">Carne $400</string>
+    <string name="cbxPepperoni">Pepperoni $200</string>
+    <string name="cbxBacon">Tocino $450</string>
+    <string name="cbxMushroom">Campiñon $250</string>
+    <string name="cbxTomatoes">Tomate $200</string>
+    <string name="cbxCorn">Choclo $200</string>
+    <string name="cbxOlive">Aceituna $250</string>
+
+</resources>

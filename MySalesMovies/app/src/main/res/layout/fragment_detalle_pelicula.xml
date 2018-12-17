@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".DetallePelicula">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Titulo" android:id="@+id/lbTitulo"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|textPersonName"
+                android:ems="10"
+                android:id="@+id/txtTitulo" android:hint="Titulo"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="N° Episodio" android:id="@+id/lbNumeroEpisodio"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|textPersonName"
+                android:ems="10"
+                android:id="@+id/txtEpisodio" android:hint="episodio"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha Lanzamiento" android:id="@+id/lbFechaLanzamiento"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|date"
+                android:ems="10"
+                android:id="@+id/txtFechaLanzamiento" android:hint="Fecha Lanzamiento"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Director" android:id="@+id/lbDirector"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|date"
+                android:ems="10"
+                android:id="@+id/txtDirector" android:hint="Director"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Productor" android:id="@+id/lbProductor"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName|date"
+                android:ems="10"
+                android:id="@+id/txtProductor" android:hint="Productor"/>
+    </LinearLayout>
+
+</FrameLayout>
